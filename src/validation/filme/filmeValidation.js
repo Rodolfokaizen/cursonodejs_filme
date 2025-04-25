@@ -1,6 +1,6 @@
 
 
-export function validarNovoFilme(filmeObj) {
+export function validarCamposObrigatoriosFilme(filmeObj) {
     if (!filmeObj.nome)
         throw new Error('Nome do filme obrigatório.');
 
