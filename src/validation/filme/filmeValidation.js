@@ -21,3 +21,8 @@ export function validarNovoFilme(filmeObj) {
 
 
 }
+
+export function validarFilmeUnico(registros) {
+    if (registros.length == 0)
+        throw new Error('filme não encontrado.');
+}
